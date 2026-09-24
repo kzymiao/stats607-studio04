@@ -1,3 +1,5 @@
+import numpy as np
+
 def bootstrap_sample(data, compute_stat, n_bootstrap=1000):
     """
     Generate the bootstrap distribution of a statistic
